@@ -27,9 +27,11 @@ lazy val root = project
       "org.scala-js"       %%% "scalajs-dom"   % scalajsDomV,
       "io.laminext"        %%% "websocket"     % lamiNext,
       "io.laminext"        %%% "ui"            % lamiNext,
+      "io.github.cquiroz" %%% "scala-java-time" % "2.3.0",
+      "io.github.cquiroz" %%% "scala-java-time-tzdb" % "2.3.0",
       //"org.wvlet.airframe" %%% "airframe-ulid" % "22.2.0",
       //"org.wvlet.airframe" %%% "airframe-ulid" % "22.2.0",
-      "dev.zio"         %%% "zio"                 % "2.0.0-RC2",
+      "dev.zio"         %%% "zio"                 % "2.0.0-RC5",
       //"org.scalablytyped" %%% "reduxjs__toolkit" % "1.6.2-6bcec8",
       //"org.scalameta" %% "munit" % "0.7.21" % Test
       // "dev.zio" %%% "zio-test-magnolia" % "1.0.3" % "test",
